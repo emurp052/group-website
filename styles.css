@@ -39,8 +39,8 @@ a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 ul {
-  list-style-type: square;
   padding: 10px;
   background: #c2d4d8;
   display: flex;
@@ -63,7 +63,7 @@ ol {
 
 div.contrast {
   background-color: #f2efe8;
-  color: #ffffff;
+  color: #000000;
   display: flex;
   align-items: center;
   flex-direction: row;
