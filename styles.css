@@ -1,0 +1,152 @@
+body {
+  background-color: white;
+  font-family: avenir;
+  margin: 0px;
+  width: 100vw;
+}
+
+div {
+  min-height: 10vh;
+  width: 100vw;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+h1 {
+  font-size: 5em
+}
+h2 {
+  font-size: 2.5em
+}
+img {
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
+
+}
+
+p {
+  width: 85%;
+  margin: 10vh 10vw;
+  font-size: 29px;
+  text-align: justify;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: square;
+  padding: 10px;
+  background: #c2d4d8;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div.contrast {
+  background-color: #f2efe8;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+div.gallery {
+  margin: 0px;
+  border: 0px;
+  float: left;
+  width: 180px;
+  border-radius: 0px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+div.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
